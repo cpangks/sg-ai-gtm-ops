@@ -1,0 +1,18 @@
+# Mac system files
+.DS_Store
+
+# Excel and raw data files (too large for GitHub)
+*.xlsx
+*.xls
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# CSVs with sensitive data (keep processed ones manually)
+failed_tickers.csv
